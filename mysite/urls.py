@@ -21,5 +21,5 @@ from newapp import views
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-    path('movies',views.movie_list,name='movie_list'),
+    path('movies/',views.movie_list,name='movie_list'),
 ]
